@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+	<title>A Premium Restaurant HTML Theme -My Cafe</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+	<link href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+	<!--color-picker-->
+	<link href="js/color_picker/css/colorpicker.css" rel="stylesheet">
+	<link href="js/color_picker/css/layout.css" rel="stylesheet">
+	<!--color-picker end-->
+	<!--patern changing css file-->
+	<link rel="stylesheet" id="theme-change" type="text/css" href="#">
+	<!--patern changing css file end-->
+	<!--solid patern changing css file-->
+	<link rel="stylesheet" id="stheme-change" type="text/css" href="#">
+	<!--solid patern changing css file end-->
+	<!--favicon link-->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<!--ending of favicon-->
+</head>
+<body>
+<!-- patern change starts -->
+<div id="style-switcher" class="hs_color_set">
+<div>
+  <div class="transparent-background">
+    <h5>transparent Background</h5>
+
+<h6>Patern Option</h6>
+    <ul class="background">
+      <li>
+        <p class='paternchange' id='default'></p>
+      </li>
+      <li>
+        <p class='paternchange' id='patern1'></p>
+      </li>
+      <li>
+        <p class='paternchange' id='patern2'></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern3"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern4"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern5"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern6"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern7"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern8"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern9"></p>
+      </li>
+   </ul>
+<h6>Background color</h6>
+<div id="colorSelector">
+<div style="background-color: #0000ff">
+</div>
+</div>
+</div>
+<div class="solid_background">
+<h5>Solid Background</h5>
+<h6>Patern Option</h6>
+<ul class="sbackground">
+      <li>
+        <p class="paternchange" id="patern10"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern11"></p>
+      </li>
+      <li>
+        <p class="paternchange" id="patern12"></p>
+      </li>
+   </ul>
+</div>
+ </div>
+ <div class="bottom"> <a href="" class="settings"><i class="fa fa-gear fa-spin"></i></a> </div>
+</div>
+<!-- patern change ends-->
+<section class="top-header">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 padding-lr">
+		<div class="left_menu padding-lr">
+		<ul class="top_ul">
+		<li>
+	<a href="reservation.html" class="reservation">
+   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <span class="animated fadeInDown">Reservation</span>
+  </a>
+		</li>
+		<li><a href="our_story.html" class="our-story">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <span class="animated fadeInDown">Our Story</span>
+</a></li>
+		</ul>
+		</div>
+		<div class="right_menu padding-lr">
+		<ul class="top_ul" style="float:left;">
+		<li><a href="#" class="register" data-toggle="modal" data-target=".bs-example-modal-sm">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <span class="animated fadeInDown">Register</span>
+</a></li>
+
+		<li><a href="#" class="login" data-toggle="modal" data-target=".bs-example-modal-sm1">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <span class="animated fadeInDown">Login</span>
+</a></li>
+
+
+		</ul>
+		<!--1st model start-->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		<a href="#" class="popup_heading">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <h4 class="modal-title">Register</h4>
+</a>
+        
+      </div>
+      <div class="modal-body">
+     <div class="col-md-12 col-sm-12 padding-lr push-down-20">
+	<div class="register_form">
+	<h4>Your personal information</h4>
+	<form class="register">
+	<table>
+	<tr>
+	<td colspan="2"><label>title</label></td>
+	</tr>
+	<tr>
+	<td colspan="2">
+	<input type="radio" name="gender" value="mr"><label>mr.</label>
+	<input type="radio" name="gender" value="mrs"><label>mrs.</label>
+	</td>
+	</tr>
+	<tr>
+	<td><label>first name*</label></td>
+	<td><input type="text" name="fname" class="register_input"></td>
+	</tr>
+	<tr>
+	<td><label>last name*</label></td>
+	<td><input type="text" name="lname" class="register_input"></td>
+	</tr>
+	<tr>
+	<td><label>email*</label></td>
+	<td><input type="text" name="email" class="register_input"></td>
+	</tr>
+	<tr>
+	<td><label>password*</label></td>
+	<td><input type="password" name="email" class="register_input"></td>
+	</tr>
+	<tr>
+	<td colspan="2" class="centre"><a href="#">already register user</a></td>
+	</tr>
+	
+	</table>
+
+	</form>
+	</div>
+	</div><!--/.col-md-12-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="subs_btn">Submit</button>
+      </div>
+    </div><!-- /.modal-content -->
+    </div>
+  </div>
+
+<!--1st model end-->
+<!--2nd model start-->
+<div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		<a href="#" class="popup_heading">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="50px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <h4 class="modal-title">Login</h4>
+</a>
+        
+      </div>
+      <div class="modal-body">
+     <div class="col-md-12 col-sm-12 padding-lr push-down-20">
+	<div class="register_form">
+	<form class="register">
+	<table>
+	<tr>
+	<td><label>Email Id*</label></td>
+	<td><input type="text" name="email" class="register_input" placeholder="Enter Email Id"></td>
+	</tr>
+	<tr>
+	<td><label>password*</label></td>
+	<td><input type="password" name="pwd" class="register_input" placeholder="Enter Password"></td>
+	</tr>
+	<tr>
+	<td colspan="2" class="centre"><a href="#">forget password</a></td>
+	</tr>
+	
+	</table>
+
+	</form>
+	</div>
+	</div><!--/.col-md-12-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="subs_btn">Submit</button>
+      </div>
+    </div><!-- /.modal-content -->
+	</div>
+	</div>
+    <!--2nd model end-->
+
+		</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12-col-sm-12 padding-lr hs_middle_header">
+		<div class="col-md-4 col-sm-5 social_icon">
+		<ul>
+		<li><a href="#"><i class="fa fa-facebook animated fadeInDown"></i></a></li>
+		<li><a href="#"><i class="fa fa-twitter animated fadeInDown"></i></a></li>
+		<li><a href="#"><i class="fa fa-google-plus animated fadeInDown"></i></a></li>
+		<li><a href="#"><i class="fa fa-linkedin animated fadeInDown"></i></a></li>
+		</ul>
+		</div>
+		<div class="col-md-4 col-sm-12 padding-lr hs_logo">
+		<a href="index.html" class="logo">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="314px" height="85px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+<img src="images/logo.png" class="animated zoomIn" alt="logo"></a>
+		</div>
+		<div class="col-md-3 col-sm-12 right padding-lr header_search">
+		<div class="col-sm-9 col-xs-11 padding-lr">
+    <input type="text" class="search-input animated fadeInDown" placeholder="Search-Hear">
+  </div>
+  <div class="col-sm-2 col-xs-1 padding-lr">
+  <a href="#" class="search-btn animated fadeInDown"><span class="glyphicon glyphicon-search"></span></a>
+  </div>
+  
+		</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12 col-sm-12 padding-lr main-menu">
+		<div class="open-navigation">
+		<a href="#"><i class="fa fa-bars"></i></a>
+		</div>
+	  <div>
+		<ul class="hs_nav">
+		<li><a href="index.html" class="animated fadeInLeft">Home</a></li>
+		<li><a href="#" class="animated fadeInLeft">Pages</a>
+                </li>
+		<li><a href="menu.html" class="animated fadeInLeft">Menu Card</a>
+		<ul class="sub-menu">
+		<li><a href="#">Breakfast</a></li>
+		<li><a href="#">Drinks</a></li>
+		<li><a href="#">Sweets</a></li>
+		<li><a href="#">Lunch</a></li>
+		<li><a href="#">Dinner</a></li>
+		</ul>
+		</li>
+		<li><a href="#" class="animated fadeInLeft">Event</a></li>
+		<li><a href="gallery.html" class="animated fadeInLeft">Gallery</a></li>
+		<li><a href="blog.html" class="animated fadeInLeft">Blog</a></li>
+		<li><a href="contact.html" class="animated fadeInLeft">Contact</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</div><!--/.conatiner-->
+</section><!--/.top-header-->
+		<section class="banner">
+<div class="banner_img">
+	<img src="http://via.placeholder.com/1920x322" alt="header_back">
+<div class="banner_overlay"></div>
+</div>
+	</section><!--/.banner-->
+	
+	<section class="page_heading">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12 col-sm-12 padding-lr">
+	<div class="heading">
+	<div class="top_heading_div">
+	<img src="images/resrvation-icon.png" alt="reservation_icon">
+	</div>
+	<div class="middle_heading_div">
+	<h3>reservation</h3>
+	</div>
+	<div class="bottom_heading_div">
+	<img src="http://via.placeholder.com/74x74" alt="resrvation-page">
+	</div>
+	</div>
+	</div><!--/.col-md-12-->
+	</div><!--/.row-->
+	</div><!--/.container-->
+	</section><!--/.page_heading-->
+	<section class="main-content">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12 col-sm-12 padding-lr push-down-20">
+<div class="col-md-8 col-sm-12 padding-lr">
+	<div class="col-md-6 col-sm-12 padding-lr">
+	<div class="tab-top-heading">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="296.996px" height="45.998px" viewBox="0 0 296.996 45.998" enable-background="new 0 0 296.996 45.998" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M0,45.992c0,0,9.48-4.437,17.606-19.396c0,0,8.634-25.764,24.378-26.596h217.102
+		c0,0,10.559,0.844,16.252,14.628c0,0,8.73,24.25,21.658,31.37L0,45.992z"></path>
+	</svg>
+		<h4 class="animated fadeIn" data-scrollreveal="enter from the top over 1s">Inside My Cafe </h4>
+	</div>
+	</div><!--/.col-md-4-->
+	<div class="single_page">
+	<div class="single_blog_slider">
+<div id="singleCarousel" class="carousel slide"> 
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="item active">
+			<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> family blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation1">
+<div class="bottom_left_img family">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+		<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> business blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation2">
+<div class="bottom_left_img business">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+				<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> couple blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation3">
+<div class="bottom_left_img couple">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+		
+			</div>
+			 <div class="item">
+			<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> family blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation1">
+<div class="bottom_left_img family">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+		<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> business blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation2">
+<div class="bottom_left_img business">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+				<div class="reservation_category">
+			<div class="single_content">
+			<h4 class="capitalize" data-scrollreveal="enter from the top over 1s"> couple blog</h4>
+<p data-scrollreveal="enter from the top over 1s">Laughing. Sharing. Enjoying. Memories are made at the breakfast table – especially at Cefeteria.</p>
+	</div>
+			<div class="single_image padding-lr">
+	<img src="http://via.placeholder.com/586x286" class="img-responsive" alt="resrvation3">
+<div class="bottom_left_img couple">
+<a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"></a>
+</div>
+</div>
+			</div>
+			</div>
+		</div>
+</div>
+<div class="view-more right">
+<a href="#" class="right_btn">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="30px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve" class="red">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"></path>
+</svg>
+   </a>
+
+		<div class="slider_arrow">
+		<a class="s_left carousel-control" href="#singleCarousel" data-slide="prev">‹</a>
+		<a class="s_right carousel-control" href="#singleCarousel" data-slide="next">›</a>
+		</div>
+
+</div>
+</div>
+	</div>
+	</div>
+	<div class="col-md-4 col-sm-12 padding-lr">
+	<div class="sidebar">
+	<div class="col-md-12 col-sm-12 padding-lr push-down-20">
+	<div class="sidebar_top_heading sidebar_red">
+	<h4>Reservation Table Form</h4>
+	</div>
+	<div class="reservation_form">
+	<form class="book_room">
+	<div class="reservation_form_div">
+	<div class="wrapper-dropdown-5" tabindex="1">Select Your Blog
+						<ul class="dropdown">
+							<li><a href="#">Family Blog</a></li>
+							<li><a href="#">Business Blog</a></li>
+							<li><a href="#">Couple Blog</a></li>
+						</ul>
+	</div>
+	</div>
+	<div class="reservation_form_div">
+	
+  <input type="text" id="datepicker" placeholder="Select Your Date">
+
+	
+	</div>
+	<div class="reservation_form_div">
+	<input type="text" name="" placeholder="Your Name">
+	</div>
+	<div class="reservation_form_div">
+	<input type="text" name="" placeholder="Total No. of Guest">
+	</div>
+	<div class="reservation_form_div">
+	<div class="half_div padding-left">
+	<div class="wrapper-dropdown-5" tabindex="1">Male
+						<ul class="dropdown">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>
+	</div>
+	</div>
+	<div class="half_div padding-right">
+	<div class="wrapper-dropdown-5" tabindex="1">Female
+						<ul class="dropdown">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>
+	</div>
+	</div>
+	</div>
+	<div class="reservation_form_div">
+	<input type="text" name="" placeholder="Proof of identity">
+	</div>
+	<div class="reservation_form_div">
+	<input type="text" name="" placeholder="Email">
+	</div>
+	<div class="reservation_form_div">
+	<input type="text" name="" placeholder="Phone">
+	</div>
+	<div class="reservation_form_div">
+	<textarea placeholder="Instructions"></textarea>
+	</div>
+	<div class="reservation_form_div">
+	<p class="italic">We'll get back to you asap.
+All fields Required *</p>
+	</div>
+	</form>
+	<div class="view-more right white">
+<a href="#" class="right_btn ">
+		   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="30px" viewBox="0 0 295.01 78.992" enable-background="new 0 0 295.01 78.992" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0,78.992c0,0,16.422-9.242,29.794-34.354c0,0,14.208-43.244,40.116-44.638
+	h162.065c0,0,17.376,1.415,26.744,24.551c0,0,15.017,42.491,36.291,54.441H0z"/>
+</svg>
+    <span class="span_black">Reserve</span>
+</a>
+</div>
+	</div>
+	</div><!--/.col-md-12-->
+	<div class="col-md-12 col-sm-12 padding-lr push-down-20">
+	<div class="sidebar_top_heading sidebar_green">
+	<h4>open hours</h4>
+	</div>
+	<div class="sidebar_featured_dish pb-20">
+	<div class="opening_hours">
+	<label>closed</label>
+	<p> - monday</p>
+	</div>
+	<div class="opening_hours">
+	<label>9:00 - 22:00</label>
+	<p> - Tuesday to friday</p>
+	</div>
+	<div class="opening_hours">
+	<label>9:00 - 17:00</label>
+	<p> - Saturday to sunday</p>
+	</div>
+	<p class="italic white align-center">Welcome to Cefeteria.Cras et sollicitudin quam. Et sollicitudin. </p>
+	</div>
+	</div><!--/.col-md-12-->
+	
+	<div class="col-md-12 col-sm-12 padding-lr push-down-20">
+	<div class="sidebar_top_heading sidebar_red">
+	<h4>My Cafe Happy Hour</h4>
+	</div>
+	<div class="sidebar_video padding-lr">
+	<div class="opening_hours">
+	<label>9:00</label>
+	<p> Special Breakfast</p>
+	</div>
+	<div class="opening_hours">
+	<label>13:00</label>
+	<p> Special Lunch</p>
+	</div>
+	<div class="opening_hours">
+	<label>20:00</label>
+	<p> My Cafe Cocktail</p>
+	</div>
+	
+	</div>
+	</div><!--/.col-md-12-->
+	
+	</div><!--/.sidebar-->
+	</div>
+       	</div><!--/.col-md-12-->
+	</div><!--/.row-->
+	<div class="row">
+	<div class="col-md-12 col-sm-12 padding-lr push-down-30 pull-down-30">
+	<div class="col-md-4 col-sm-12 padding-lr">
+	<div class="tab-top-heading">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="296.996px" height="45.998px" viewBox="0 0 296.996 45.998" enable-background="new 0 0 296.996 45.998" xml:space="preserve">
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M0,45.992c0,0,9.48-4.437,17.606-19.396c0,0,8.634-25.764,24.378-26.596h217.102
+		c0,0,10.559,0.844,16.252,14.628c0,0,8.73,24.25,21.658,31.37L0,45.992z"></path>
+	</svg>
+		<h4 class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">Food partners</h4>
+	</div>
+	</div>
+	<div class="partners">
+	<div class="rotator-wrap">
+<ul class="rotator">
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner1"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner2"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner3"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner4"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner5"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner6"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner1"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner2"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner3"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner4"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner5"></a></div></li>
+<li><div><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><img src="http://via.placeholder.com/95x34" alt="patner6"></a></div></li>
+</ul>
+</div>
+	</div>
+	</div><!--/.col-md-12-->
+	</div><!--/.row-->
+	</div><!--/.container-->
+	</section><!--/.main-content-->
+	<section class="main_footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 padding-lr">
+<div class="footer_hr">
+<hr>
+</div>
+</div><!--/.col-md-12-->
+</div><!--/.row-->
+<div class="col-md-4 col-sm-4">
+<h1 class="capitalize white animated fadeInDown" data-scrollreveal="enter from the top over 2s">My Cafe</h1>
+<p class="white animated fadeInDown" data-scrollreveal="enter from the top over 2s">Etiam tempor aliquet elit, eget tempor ligula trum eget. Cras at massa et nibh  At non dui....!!</p>
+<a href="#" class="hs_white animated fadeInDown" data-scrollreveal="enter from the top over 2s">read more</a>
+</div>
+<div class="col-md-4 col-sm-4">
+<h4 class="white capitalize animated fadeInDown" data-scrollreveal="enter from the top over 2s">more information</h4>
+<div class="col-md-12 col-sm-12 pull-down-15">
+<div class="footer_menu">
+<ul>
+<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">about us</a></li>
+<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">privacy</a></li>
+<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">terms and conditions</a></li>
+<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">returns</a></li>
+<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s">menu</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-4 footer_menu_div">
+<h4 class="white capitalize animated fadeInDown" data-scrollreveal="enter from the top over 2s">recent blog</h4>
+<div class="pull-down-15">
+	<div class="footer-div push-down-15">
+	<div class="recent_blog_img">
+	<img src="http://via.placeholder.com/66x66" class=" animated fadeInDown" data-scrollreveal="enter from the top over 2s" alt="img1">
+	</div>
+	<div class="resent_blog_content">
+	<a href="#"><h4 class="white capitalize animated fadeInDown" data-scrollreveal="enter from the top over 2s">Fresh Fruit</h4></a>
+	<div class="col-md-12 col-sm-12 padding-lr post_date_comments">
+		<span><a href="#" data-scrollreveal="enter from the top over 2s"><i class="fa fa-calendar"></i> Aug 12, 2016</a></span>
+		<span><a href="#" data-scrollreveal="enter from the top over 2s"><i class="fa fa-comments"></i> 05</a></span>
+		</div>
+	</div>
+	</div>
+	<div class="footer-div push-down-15">
+	<div class="recent_blog_img">
+	<img src="http://via.placeholder.com/66x66" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s" alt="img2">
+	</div>
+	<div class="resent_blog_content">
+	<a href="#"><h4 class="white capitalize animated fadeInDown" data-scrollreveal="enter from the top over 2s">Hot Tea</h4></a>
+	<div class="col-md-12 col-sm-12 padding-lr post_date_comments">
+		<span><a href="#" data-scrollreveal="enter from the top over 2s"><i class="fa fa-calendar"></i> Aug 12, 2016</a></span>
+		<span><a href="#" data-scrollreveal="enter from the top over 2s"><i class="fa fa-comments"></i> 05</a></span>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div><!--/.container-->
+</section><!--/.main-section-->
+<section class="bottom_footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 padding-lr">
+<div class="col-md-7 col-sm-12 padding-lr copy_right">
+<p class="white animated fadeInDown" data-scrollreveal="enter from the top over 2s">&copy; 2017 My cafe | All Rights Reserved | Created by <a href="#">Templatebundle</a></p>
+</div><!--/.col-md-7-->
+<div class="col-md-5 col-sm-12 padding-lr footer_social">
+<ul>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 1s"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 1.5s"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2s"><i class="fa fa-google-plus"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 2.5s"><i class="fa fa-linkedin"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 3s"><i class="fa fa-skype"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 3.5s"><i class="fa fa-instagram"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 4s"><i class="fa fa-pinterest"></i></a></li>
+		<li><a href="#" class="animated fadeInDown" data-scrollreveal="enter from the top over 4.5s"><i class="fa fa-flickr"></i></a></li>
+</ul>
+</div><!--/.col-md-5-->
+</div><!--/.col-md-12-->
+</div><!--/.row-->
+</div><!--/.container-->
+</section><!--/.bottom_footer-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="js/jquery.roundabout.js"></script>
+	 <script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/scrollReveal.js"></script>
+   <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<!--color-picker_js-->
+	  <script src="js/color_picker/js/colorpicker.js"></script>
+	  <script src="js/color_picker/js/eye.js"></script>
+	  <script src="js/color_picker/js/layout.js"></script>
+	  <script src="js/color_picker/js/utils.js"></script>
+	<!--color_picker_js end-->
+	<script src="js/custom.js"></script>
+	</body>
+	</html>
+	
+	
